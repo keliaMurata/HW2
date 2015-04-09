@@ -14,8 +14,10 @@ void ofApp::setup()
 	
 	//GUI set up, initializing button and slider 
 	gui.setup();
+
 	gui.add(shapeChange.setup("Shape", true)); 
 	gui.add(divider.setup("Resolution", 1, 1, 48));
+	gui.setPosition(350, 600);  //set position of gui panel 
 }
 
 // loading in from web 
